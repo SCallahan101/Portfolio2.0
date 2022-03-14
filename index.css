@@ -1,0 +1,21 @@
+* body{
+    box-sizing: border-box;
+    text-align: center;
+}
+.svgPicDoc {
+    width: 50px;
+}
+#knowledgeIcons {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    grid-gap: 10px;
+}
+@media only screen and (min-width: 769px){
+
+}
+@media only screen and (min-width: 481px){
+    
+}
