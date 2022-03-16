@@ -2,6 +2,10 @@
     box-sizing: border-box;
     text-align: center;
 }
+#portraitMyself{
+    width: 80%;
+    border-radius: 35px;
+}
 .svgPicDoc {
     width: 50px;
 }
@@ -9,9 +13,21 @@
     list-style-type: none;
     padding: 0;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
-    grid-gap: 10px;
+    /* grid-gap: 10px; */
+}
+#knowledgeIcons img {
+    width: 50px;
+    height: 67px;
+}
+#knowledgeIcons > li{
+    width: 100%;
+    position: relative;
+    padding-top: 10px;
+}
+#iconsContainer > a {
+    text-decoration: none;
 }
 @media only screen and (min-width: 769px){
 
