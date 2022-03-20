@@ -6,6 +6,15 @@
     width: 80%;
     border-radius: 35px;
 }
+.introBox{
+    text-align: left;
+}
+.introBox h3{
+    margin: 3px;
+}
+.introBox p{
+    margin: 0;
+}
 .svgPicDoc {
     width: 50px;
 }
