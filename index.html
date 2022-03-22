@@ -22,22 +22,39 @@
         <section>
             <div class="introBox">
                 <h2>Hey!</h2>
-                <h3>const intro = {</h3>
-                <div class="keyAndValuesBox">
-                    <p>name: "Shannon Callahan"</p><span>,</span>
-                    <p>role: "Fullstack Developer"</p><span>,</span>
-                    <div class="subKey">
-                        <p>location: {</p> 
-                        <div class="subValues">
-                            <p>city: "Denver"</p><span>,</span> 
-                            <p>state: "Colorado"</p> 
-                        </div>
-                        <p>}</p><span>,</span>
+                <div id="toggleIntroBox">
+                    <div>(Regular)</div>
+                    <div>
+                        <label class="toggleMech">
+                            <input type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
                     </div>
-                    <p>can_remote: Yes, available</p><span>,</span>
-                    <p>school: Thinkful</p>
+                    <div>(Dev Style)</div>
+                    <!-- <span>(Regular)</span><label class="toggleMech">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                    </label><span>(Dev Style)</span> -->
                 </div>
-                <h3>};</h3>
+                <div class="categoryBox regularIntro">My name is Shannon Callahan <br> and I am (Dev Terms)</div>
+                <div class="categoryBox devIntro">
+                    <h3>const intro = {</h3>
+                        <div class="keyAndValuesBox">
+                            <p>name: "Shannon Callahan",</p>
+                            <p>role: "Fullstack Developer",</p>
+                            <div class="subKey">
+                                <p>location: {</p> 
+                                <div class="subValues">
+                                    <p>city: "Denver",</p> 
+                                    <p>state: "Colorado"</p> 
+                                </div>
+                                <p>},</p>
+                            </div>
+                            <p>can_remote: Yes, available,</p>
+                            <p>school: Thinkful</p>
+                        </div>
+                    <h3>};</h3>
+                </div>
             </div>
         </section>
         <section id="containerContacts">
