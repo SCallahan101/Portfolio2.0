@@ -104,6 +104,7 @@
     text-align: center;
 }
 .devIntro{
+    display: none;
     margin: 0 auto;
     padding: 5px;
     width: 15rem;
