@@ -3,6 +3,7 @@
     text-align: center;
     margin: 0;
     padding: 0;
+    font-family: 'Rubik', sans-serif;
 }
 #portraitMyself{
     width: 80%;
@@ -101,21 +102,31 @@
   }
 .categoryBox {
     margin: 10px auto 0;
+    width: 20em;
 }
 #regularIntro{
     display: block;
     /* margin: 0 auto; */
     padding: 5px;
-    width: 15rem;
+    /* width: 15rem; */
     border: 5px solid #2da7c7;
     border-radius: 15px;
     text-align: center;
+}
+#regularIntro p{
+    display: inline-block;
+    margin: 5px;
+    font-size: 1.4em;
+}
+#myName{
+    font-family: 'Hurricane', cursive;
+    font-size: 1.5em;
 }
 #devIntro{
     display: none;
     /* margin: 0 auto; */
     padding: 5px;
-    width: 15rem;
+    /* width: 15rem; */
     border: 5px solid #2da7c7;
     border-radius: 15px;
     text-align: left;

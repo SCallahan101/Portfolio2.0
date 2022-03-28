@@ -6,11 +6,15 @@
         <title>Shannon Portfolio 2.0</title>
         <meta name="description" content="Shannon Portfolio 2.0">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Hurricane&family=Rubik&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
         <header>
-            <h1>Web Development <br/> Portfolio</h1>
+            <!-- <h1>Web Development <br/> Portfolio</h1> -->
+            <h1>Welcome!</h1>
         </header>
         <section>
             <div>
@@ -22,20 +26,23 @@
             <div class="introBox">
                 <h2>Hey!</h2>
                 <div id="toggleIntroBox">
-                    <div>(Regular)</div>
+                    <div>/Regular Style</div>
                     <div>
                         <label class="toggleMech">
                             <input type="checkbox" id="introToggle" onclick="toggleIntro()">
                             <span class="slider round"></span>
                         </label>
                     </div>
-                    <div>(Dev Style)</div>
+                    <div>Developer\ Style</div>
                     <!-- <span>(Regular)</span><label class="toggleMech">
                         <input type="checkbox">
                         <span class="slider round"></span>
                     </label><span>(Dev Style)</span> -->
                 </div>
-                <div class="categoryBox" id='regularIntro'>My name is Shannon Callahan <br> and I am (Dev Terms)</div>
+                <div class="categoryBox" id='regularIntro'>
+                    <p>My name is <span id="myName">Shannon Callahan</span></p>
+                    <p>and I am (Dev Terms)</p>
+                </div>
                 <div class="categoryBox" id='devIntro'>
                     <h3>const intro = {</h3>
                         <div class="keyAndValuesBox">
@@ -56,12 +63,12 @@
                 </div>
             </div>
         </section>
-        <section>
+        <!-- <section>
             <p>I am </p>
            <div>
                Quotes etc etc
            </div>
-        </section>
+        </section> -->
         <section>
             <div class="profileBox codingKnowledge">
                 <h2>My Coding Knowledge</h2>
@@ -121,10 +128,11 @@
         <div>
             <button>Projects</button>
         </div>
+        <hr>
         <section id="containerContacts">
-            <h1>Let's Connect!</h1>
+            <h1>More Thoughts?</h1>
             <p>If you have question(s), ask away! Want to brainstorm together? Let's do it! Looking for someone to assist with creating your website? I'm here to help you!</p>
-            <h3>Just send me a message, then I will be right with you soon.</h3>
+            <h1>Let's Connect!</h1>
             <div id="iconsContainer">
                 <a class="contactBox" href="https://github.com/SCallahan101" target="_blank" rel="noreferrer noopener">
                     <img alt="Github icon" class="svgPicDoc" src="./IconsSVG/github-square-brands.svg">
@@ -139,6 +147,7 @@
                     <img alt="Goodreads icon" class="svgPicDoc" src="./IconsSVG/goodreads-brands.svg">
                 </a> -->
             </div>
+            <h3>Just send me a message, then I will be right with you soon.</h3>
         </section>
         <script src="index.js" async defer></script>
     </body>
