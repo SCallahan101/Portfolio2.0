@@ -31,6 +31,7 @@ section {
 }
 #portraitMyself{
     width: 80%;
+    margin-top: 25px;
     border-radius: 35px;
     /* border: 5px solid #2da7c7; */
 }
@@ -140,11 +141,11 @@ section {
 #regularIntro p{
     display: inline-block;
     margin: 5px;
-    font-size: 1.4em;
+    font-size: 1.5em;
 }
 #myName{
     font-family: 'Hurricane', cursive;
-    font-size: 1.5em;
+    font-size: 3em !important;
 }
 #devIntro{
     display: none;
