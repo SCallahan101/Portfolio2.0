@@ -281,16 +281,16 @@ li a{
     text-decoration: none;
     margin: 0px 10px;
 }
-#containerContacts h1{
+#contactSection h1{
     margin: 5px auto;
 }
-#containerContacts h1:nth-child(1){
+#contactSection h1:nth-child(1){
     padding-top: 15px;
 }
-#containerContacts p{
+#contactSection p{
     margin: 10px;
 }
-#containerContacts h3{
+#contactSection h3{
     margin: 5px 10px;
     padding-bottom: 15px;
 }
